@@ -43,5 +43,5 @@ System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
 		WebElement doubleClickButton = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
 		act.doubleClick(doubleClickButton).perform();
 	}
-
+//add comment
 }
